@@ -6,13 +6,13 @@
 ## SavedVariables: gMappy_Settings
 ## OptionalDeps: QuestHelper, Gatherer, GatherMate, GatherMate2
 
-MC2AddonLib.lua
-MC2DebugLib.lua
-MC2EventLib.lua
-MC2SchedulerLib.lua
-MC2UIElementsLib.lua
+Libraries/MC2AddonLib/MC2AddonLib.lua
+Libraries/MC2DebugLib/MC2DebugLib.lua
+Libraries/MC2EventLib/MC2EventLib.lua
+Libraries/MC2SchedulerLib/MC2SchedulerLib.lua
+Libraries/MC2UIElementsLib/MC2UIElementsLib.lua
 
-LibStub.lua
-LibDropdown-1.0.lua
+Libraries/LibStub.lua
+Libraries/LibDropdown-1.0.lua
 
 Mappy.lua

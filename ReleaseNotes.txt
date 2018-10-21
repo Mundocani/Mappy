@@ -1,0 +1,324 @@
+Future changes
+
+- FEATURE: Option to remove arrows and 'N' indicator from the map
+- BUGFIX: Verify mouseover tooltips are working for POI arrows
+
+3.8.4 Changes
+
+* FIXED: Modified MinimapCluster hack to avoid taint in all cases
+
+3.8.3 Changes
+
+* FIXED: Modified MinimapCluster hack to only apply if the minimap is low on the screen or large
+
+3.8.2 Changes
+
+* FIXED: Right-hand bars size correctly and WoW no longer complains about scale errors
+
+3.8.1 Changes
+
+* FIXED: Restored large/flashing nodes feature
+
+3.8 Changes
+
+* FEATURE: Updated for patch 8.0
+
+3.7.8 Changes
+
+* FEATURE: Updated minimap textures for patch 7.3.5
+
+3.7.7 Changes
+
+* FEATURE: Updated minimap textures for patch 7.3
+
+3.7.6 Changes
+
+* FEATURE: Updated minimap icon atlas for patch
+
+3.7.4 Changes
+
+* FEATURE: Updated minimap textures for patch 7.2
+
+3.7.3 Changes
+
+* FEATURE: Updated for patch 7.2
+
+3.7.2 Changes
+
+* FEATURE: Default Gather configuration is more useful
+* FEATURE: Profile menus have friendlier item names
+* FIXED: Profile menus work again
+
+3.7.1 Changes
+
+* FEATURE: Minimap attached frames (quest tracker, etc.) no longer re-layout at the start of combat
+* FIXED: Minimap no longer turns opaque when dismounting in gather mode while still in combat
+
+3.7 Changes
+
+* FEATURE: Mana nodes are large when large nodes are enabled
+* FEATURE: Mana nodes flash when flashing is enabled
+* FIXED: Coordinate display no longer sometimes generates an error inside instances
+
+3.6.2 Changes
+
+* FIXED: Removed Kaleil's fixes since they seem to cause quest tracker problems
+
+3.6.1 Changes
+
+* FIXED: Removed copy of player arrow
+* FIXED: Added Kaleil's fixes for World Map taint problems
+
+3.6 Changes
+
+FEATURE: Restored flashing and large node features. A huge thanks to Voxxel for the legwork in finding the solution. Blizzard's new blip textures have more room for nodes, so I've been the large size bigger. Unfortunately the flashing is causing the minimap blips to flicker terribly, so I've reduced the flash rate to minimize that. I suggest keeping the flashing mode turned off unless you're gathering.
+
+3.5 Changes
+
+* FEATURE: Removed flashing and large node features. These features are broken by changes in WoW Patch 7. Hopefully someday a future patch will fix the problem or a workaround will be discovered and I can restore these features.
+
+3.4.2 Changes
+
+* FEATURE: Bumped toc for patch 6.1
+* FIXED: Mouse wheel passes through correctly
+
+3.4.1 Changes
+
+* FIXED: Minimap blips no longer flicker on Macs when set to flashing
+
+3.4 Changes
+
+* FEATURE: Added a setting for having the alpha change while you're moving, similar to the same feature on the main map when it's in windowed mode
+* FIXED: Updated minimap object texture for new blips
+
+3.3.7 Changes
+
+* FIXED: Objective tracker detaches correctly
+
+3.3.5 Changes
+
+* FIXED: Fixed Forbidden frame errors in patch 6 (thanks to wtfwhy for the fix)
+* FIXED: Fixed position of objective tracker
+
+3.3.4 Changes
+
+* FEATURE: Updated minimap icons with new Timeless Isle blips
+
+3.3.3 Changes
+
+* FEATURE: Bumped toc for patch 5.3
+
+3.3.2 Changes
+
+* FEATURE: Bumped toc for patch 5.2
+
+3.3.1 Changes
+
+* FEATURE: Updated for patch 5.1
+* FIXED: Node flashing no longer temporarily becomes rapid after bring WoW back to the foreground
+
+3.3 Changes
+
+* FEATURE: Added ability to hide border
+* FIXED: Time display should no longer sometimes have the top half covered by the minimap
+
+3.2.1 Changes
+
+* FIXED: Updated minimap blips for MoP
+
+3.2 Changes
+
+* FEATURE: Updated for WoW5
+* FIXED: Fixed taint issues
+
+3.1.7 Changes
+
+* BUGFIX: Fixed incompatibility with Archaeology Helper
+
+3.1.6 Changes
+
+* BUGFIX: Minimap position updates correctly when minimap is protected
+
+3.1.5 Changes
+
+* FEATURE: Updated minimap blips for patch 4.3
+* FEATURE: Bumped toc for patch 4.3
+
+3.1.4 Changes
+
+* FIXED: Clamped frame levels to 1
+* FIXED: Deferred minimap updates while minimap is protected (ie, in combat)
+
+3.1.3 Changes
+
+* FEATURE: Bumped .toc file to 4.2
+* FIXED: Fixed popup menu errors in WoW 4.2
+
+3.1.2 Changes
+
+* FEATURE: Bumped .toc file to 4.1
+* FIXED: Fixed detection of minimap buttons in the latest patch (thanks to phillshap for the fix)
+
+3.1.1 Changes
+
+* FIXED: Quest watcher works correctly
+
+3.1 Changes
+
+* FEATURE: Added option to hide Blizzard's time on the minimap
+* FEATURE/BUGFIX: Stopped trying to attach the buff frames to the minimap (use a frame mover to re-position them)
+* FEATURE: Added support for GatherMate2
+* FEATURE: Added support for stacking the Guild Group banner
+* FIXED: Changed handling of attached frames to avoid vehicle toolbar issues
+
+3.0.1 Changes
+
+* FEATURE: Bumped .toc for WoW4
+* FEATURE: Updated flashing icon images for WoW4
+
+3.0 Changes
+
+* FEATURE: Settings are now located at Interface->Options->Addons->Mappy
+* FEATURE: Profiles can be automatically selected based on dungeon/raid, battleground, and mounted
+* FEATURE: Managed UI frames (quest tracking, durability, vehicle seating, PvP balance, etc.) can be detached and moved
+* FEATURE: Minimap buttons can be started in any corner and arranged clockwise or counter-clockwise
+* FEATURE: GatherMate icons show up in "gather" mode
+* BUGFIX: LFG button stacks correctly when auto-arrange is disabled
+
+3.0b2 Changes
+
+* FEATURE: Druid travel forms are considered same as "mounted"
+
+3.0b1 Changes
+
+* FEATURE: Settings are now located at Interface->Options->Addons->Mappy
+* FEATURE: Profiles can be automatically selected based on dungeon/raid, battleground, and mounted
+* FEATURE: Managed UI frames (quest tracking, durability, vehicle seating, PvP balance, etc.) can be detached and moved
+* FEATURE: Minimap buttons can be started in any corner and arranged clockwise or counter-clockwise
+* FEATURE: GatherMate icons show up in "gather" mode
+* BUGFIX: LFG button stacks correctly when auto-arrange is disabled
+
+2.5 Changes
+
+* FEATURE: Added '/mappy reset' command to reset all settings
+* FEATURE: Added '/mappy default' as synonym for '/mappy normal'
+* FEATURE: Added '/mappy corner TOPLEFT|TOPRIGHT|BOTTOMLEFT|BOTTOMRIGHT' to set the starting corner for button stacking
+* FEATURE: Added '/mappy ccw' and '/mappy cw' to change the stacking direction between clockwise and counter-clockwise
+* FEATURE: Moved Quest watch frame down for better appearance (patch 3.3 compatibility)
+
+2.4.2 Changes
+
+* BUGFIX: Fixed crash during load when node flashing is disabled
+
+2.4.1 Changes
+
+* FEATURE: Fixed buff location and dungeon difficulty stacking
+
+2.4 Changes
+
+* FEATURE/BUGFIX: Fixed compatibility with patch 3.3
+
+2.3 Changes
+
+* FEATURE: Large minimap node size
+
+2.2.6 Changes
+
+* FEATURE: Bumped .toc for patch 3.2 (no compatibility issues found)
+
+2.2.5 Changes
+
+* BUGFIX: Fixed QuestHelper support so that QH icons don't end up behind the minimap
+
+2.2.4 Changes
+
+- BUGFIX: Adjusted mirrored player arrow to avoid ghosting
+- BUGFIX: Mirrored player arrow fades out as minimap (and normal player arrow) fade in
+
+2.2.3 Changes
+
+- FEATURE: New player arrow implementation for patch 3.1
+- BUGFIX: QuestHelper support updated
+
+2.2.2 Changes
+
+- BUGFIX: Fixed player arrow for patch 3.1
+
+2.2.1 Changes
+
+- FEATURE: Gatherer icons remain visible when the minimap is faded
+- FEATURE: Mappy identifies itself as a square minimap to other addons
+- BUGFIX: Flashing nodes will not flash rapidly after lag spikes (load lag, tabbing in/out, etc.)
+
+2.2 Changes
+
+- FEATURE: Support for QuestHelper minimap arrows
+- BUGFIX: Correctly finds the player arrow regardless of screen scale/resolution
+
+2.1.1 Changes
+
+- BUGFIX: Fixed error regarding Blizzard minimap time display when the time display isn't loaded
+
+2.1 Changes
+
+- FEATURE: Remembers minimap position based on nearest screen edge/corner (top-left, top-center, etc.) for a better experience when resizing
+- FEATURE: Gathering nodes can be set to flash for better visibility
+- FEATURE: Addon buttons can be set to stack around the screen edge instead of the minimap edge
+- FEATURE: Tracking button can be hidden (props to sweene)
+- BUGFIX: Addon button stacking properly skips the time manager if it's shown 
+
+2.0.1 Changes
+
+- FEATURE: Changed the way player arrow is handled, should work fine with TomTom or other directional addons now (unverified) 
+
+-----------------------------------------------------
+New in 2.0
+
+- Save and load different minimap configs (size, position, transparancy, etc.)
+- Automatic button stacking can now be disabled
+- Minimap can be 'ghosted' so that clicks pass through it
+
+Here are the new commands:
+
+/mappy ghost Makes clicks on the minimap pass through to whatever is behind it
+/mappy unghost Makes clicks on the minimap work like normal
+
+/mappy default Loads your normal Mappy size, position, transparancy, etc.
+/mappy save mysettingsname Saves the current minimap configuration under the name mysettingsname
+/mappy load mysettingsname Restores the saved configuration named mysettingsname
+
+I've included one built-in set which gatherers may find useful (I know I do). Try this:
+
+/mappy load gather
+
+and you will get a large, completely transparant minimap centered on your screen with clicks set to pass through it.  What this does is gives you just the yellow node dots in a HUD which makes cruising around looking for mats pretty nice.
+-----------------------------------------------------
+
+2.0b5 Changes
+
+- Fixed rotation support
+- Fixed Hide North Arrow feature
+
+2.0b4 Changes
+
+- Removed player arrow scaling
+- Added check for TimeManager frames to be present before attempting to arrange them
+- Added option to hide North label
+- Made menu/sliders wider for finer control over the Size setting
+- Fixed errors when attempting to use the settings menu in WotLK
+- Finished implementing support for disabling button stacking
+- Settings menu will show the correct current settings when it's opened
+
+2.0b3 Changes
+
+- The new mini-clock is positioned correctly
+- The Blizzard feedback button on WotLK is positioned correctly
+- Probably other fixes too, but I'm really lazy about documenting Mappy changes, sorry about that :)
+
+2.0b2 Changes
+
+- The new WoW clock is positioned correctly
+- Landmark arrows no longer fade with the minimap alpha
+- '/mappy default' command is now '/mappy normal'
+- Saved minimap configs can be loaded by using their name as a command. For example '/mappy raid' will load a saved configuration named raid (previous versions required the longer '/mappy load raid' to do the same thing)
+

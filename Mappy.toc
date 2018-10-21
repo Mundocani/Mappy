@@ -1,0 +1,18 @@
+## Interface: 80000
+## Notes: Minimap and world map enhancements
+## Title: Mappy
+## Author: John Stephen
+## Version: 3.8.4
+## SavedVariables: gMappy_Settings
+## OptionalDeps: QuestHelper, Gatherer, GatherMate, GatherMate2
+
+MC2AddonLib.lua
+MC2DebugLib.lua
+MC2EventLib.lua
+MC2SchedulerLib.lua
+MC2UIElementsLib.lua
+
+LibStub.lua
+LibDropdown-1.0.lua
+
+Mappy.lua

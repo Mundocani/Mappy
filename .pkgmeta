@@ -1,0 +1,16 @@
+ignore:
+	- Artwork
+
+enable-nolib-creation: no
+
+externals:
+    Libraries/MC2AddonLib:
+        url: https://github.com/Mundocani/MC2AddonLib.git
+    Libraries/MC2DebugLib:
+        url: https://github.com/Mundocani/MC2DebugLib.git
+    Libraries/MC2SchedulerLib:
+        url: https://github.com/Mundocani/MC2SchedulerLib.git
+    Libraries/MC2EventLib:
+        url: https://github.com/Mundocani/MC2EventLib.git
+    Libraries/MC2UIElementsLib:
+        url: https://github.com/Mundocani/MC2UIElementsLib.git

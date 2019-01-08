@@ -1,8 +1,8 @@
-## Interface: 80000
+## Interface: 80100
 ## Notes: Minimap and world map enhancements
 ## Title: Mappy
 ## Author: John Stephen
-## Version: 3.8.4
+## Version: 3.8.5
 ## SavedVariables: gMappy_Settings
 ## OptionalDeps: QuestHelper, Gatherer, GatherMate, GatherMate2
 
